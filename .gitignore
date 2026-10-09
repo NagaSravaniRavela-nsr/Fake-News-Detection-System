@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Local datasets (download separately; see README)
+Fake.csv
+True.csv
+
+# Generated model artifact
+model/*.pkl
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
